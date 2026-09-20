@@ -1,0 +1,46 @@
+{
+  "slug": "noble-heating-cooling",
+  "shop_name": "Noble Heating & Cooling",
+  "website": "https://www.nobleheatingandcooling.com/",
+  "google_maps": "https://www.google.com/maps/search/?api=1&query=Noble+Heating+%26+Cooling+95+W+Square+Lake+Rd+Troy+MI",
+  "phone": "(248) 817-2920",
+  "city": "Troy, MI",
+  "county": "Oakland",
+  "logo_url": "https://storage.googleapis.com/image-service-images/1d1acb41-e7ef-43ac-99c8-5924b9cee3a1/noble-logo.png.webp",
+  "primary_color": "#0e0e0e",
+  "accent_color": "#FFCC02",
+  "preview_url": "https://rbaset5.github.io/trade-quote-previews/noble-heating-cooling/",
+  "qr_path": "/workspace/hvac-metro-detroit/packs/noble-heating-cooling/qr.png",
+  "filter_checks": {
+    "geo": "Y",
+    "independent": "Y",
+    "cloneable_site": "Y",
+    "reviews_90d": "unverified",
+    "truck_signal": "~2\u20133 inferred"
+  },
+  "services_mapped": [
+    "diagnostic",
+    "capacitor",
+    "blower",
+    "tuneup",
+    "ac_under_1500",
+    "ac_1500_2000",
+    "ac_over_2000",
+    "furnace_under_1500",
+    "furnace_1500_2000",
+    "furnace_over_2000"
+  ],
+  "needs_visit": [
+    "Contactor",
+    "Furnace igniter",
+    "Refrigerant leak + recharge",
+    "After-hours / emergency diagnostic surcharge"
+  ],
+  "table_ref": "v1-signed-2026-09-20.md",
+  "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+  "site_services_raw": [
+    "HVAC repair",
+    "Replacement",
+    "Indoor air quality"
+  ]
+}

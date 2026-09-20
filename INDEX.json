@@ -1,0 +1,375 @@
+[
+  {
+    "slug": "fair-heating-cooling",
+    "shop_name": "Fair Heating & Cooling",
+    "website": "https://fairheatingcooling.com/",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Fair+Heating+%26+Cooling+2570+Dixie+Hwy+Waterford+MI",
+    "phone": "(248) 791-7075",
+    "city": "Waterford Township, MI",
+    "county": "Oakland",
+    "logo_url": "https://fairheatingcooling.com/wp-content/uploads/2025/09/fair-heating-cooling-logo.jpg",
+    "primary_color": "#0693e3",
+    "accent_color": "#428bca",
+    "preview_url": "https://rbaset5.github.io/trade-quote-previews/fair-heating-cooling/",
+    "qr_path": "/workspace/hvac-metro-detroit/packs/fair-heating-cooling/qr.png",
+    "filter_checks": {
+      "geo": "Y",
+      "independent": "Y",
+      "cloneable_site": "Y",
+      "reviews_90d": "unverified",
+      "truck_signal": "~2\u20134 inferred"
+    },
+    "services_mapped": [
+      "diagnostic",
+      "capacitor",
+      "blower",
+      "tuneup",
+      "ac_under_1500",
+      "ac_1500_2000",
+      "ac_over_2000",
+      "furnace_under_1500",
+      "furnace_1500_2000",
+      "furnace_over_2000"
+    ],
+    "needs_visit": [
+      "Contactor",
+      "Furnace igniter",
+      "Refrigerant leak + recharge",
+      "After-hours / emergency diagnostic surcharge"
+    ],
+    "table_ref": "v1-signed-2026-09-20.md",
+    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+    "site_services_raw": [
+      "AC installation",
+      "Furnace installation",
+      "HVAC repair",
+      "HVAC maintenance"
+    ]
+  },
+  {
+    "slug": "onnit-heating-cooling",
+    "shop_name": "Onnit Heating and Cooling",
+    "website": "https://onnitheatingandcooling.com/",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Onnit+Heating+and+Cooling+Westland+MI",
+    "phone": "(734) 899-5495",
+    "city": "Westland, MI",
+    "county": "Wayne",
+    "logo_url": "https://onnitheatingandcooling.com/wp-content/uploads/2024/07/onnit-heating-and-cooling-logo.jpg",
+    "primary_color": "#147aab",
+    "accent_color": "#f89904",
+    "preview_url": "https://rbaset5.github.io/trade-quote-previews/onnit-heating-cooling/",
+    "qr_path": "/workspace/hvac-metro-detroit/packs/onnit-heating-cooling/qr.png",
+    "filter_checks": {
+      "geo": "Y",
+      "independent": "Y",
+      "cloneable_site": "Y",
+      "reviews_90d": "unverified",
+      "truck_signal": "unclear (small)"
+    },
+    "services_mapped": [
+      "diagnostic",
+      "capacitor",
+      "blower",
+      "tuneup",
+      "ac_under_1500",
+      "ac_1500_2000",
+      "ac_over_2000",
+      "furnace_under_1500",
+      "furnace_1500_2000",
+      "furnace_over_2000"
+    ],
+    "needs_visit": [
+      "Contactor",
+      "Furnace igniter",
+      "Refrigerant leak + recharge",
+      "After-hours / emergency diagnostic surcharge"
+    ],
+    "table_ref": "v1-signed-2026-09-20.md",
+    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+    "site_services_raw": [
+      "AC repair",
+      "Furnace repair",
+      "Tune-ups",
+      "System replacement"
+    ]
+  },
+  {
+    "slug": "noble-heating-cooling",
+    "shop_name": "Noble Heating & Cooling",
+    "website": "https://www.nobleheatingandcooling.com/",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Noble+Heating+%26+Cooling+95+W+Square+Lake+Rd+Troy+MI",
+    "phone": "(248) 817-2920",
+    "city": "Troy, MI",
+    "county": "Oakland",
+    "logo_url": "https://storage.googleapis.com/image-service-images/1d1acb41-e7ef-43ac-99c8-5924b9cee3a1/noble-logo.png.webp",
+    "primary_color": "#0e0e0e",
+    "accent_color": "#FFCC02",
+    "preview_url": "https://rbaset5.github.io/trade-quote-previews/noble-heating-cooling/",
+    "qr_path": "/workspace/hvac-metro-detroit/packs/noble-heating-cooling/qr.png",
+    "filter_checks": {
+      "geo": "Y",
+      "independent": "Y",
+      "cloneable_site": "Y",
+      "reviews_90d": "unverified",
+      "truck_signal": "~2\u20133 inferred"
+    },
+    "services_mapped": [
+      "diagnostic",
+      "capacitor",
+      "blower",
+      "tuneup",
+      "ac_under_1500",
+      "ac_1500_2000",
+      "ac_over_2000",
+      "furnace_under_1500",
+      "furnace_1500_2000",
+      "furnace_over_2000"
+    ],
+    "needs_visit": [
+      "Contactor",
+      "Furnace igniter",
+      "Refrigerant leak + recharge",
+      "After-hours / emergency diagnostic surcharge"
+    ],
+    "table_ref": "v1-signed-2026-09-20.md",
+    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+    "site_services_raw": [
+      "HVAC repair",
+      "Replacement",
+      "Indoor air quality"
+    ]
+  },
+  {
+    "slug": "temperature-repair",
+    "shop_name": "Temperature Repair",
+    "website": "https://www.temperaturerepair.com/",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Temperature+Repair+5098+Westmoreland+Dr+Troy+MI",
+    "phone": "(248) 817-5487",
+    "city": "Troy, MI",
+    "county": "Oakland",
+    "logo_url": "",
+    "primary_color": "#1e3a5f",
+    "accent_color": "#dc2626",
+    "preview_url": "https://rbaset5.github.io/trade-quote-previews/temperature-repair/",
+    "qr_path": "/workspace/hvac-metro-detroit/packs/temperature-repair/qr.png",
+    "filter_checks": {
+      "geo": "Y",
+      "independent": "Y",
+      "cloneable_site": "Y",
+      "reviews_90d": "unverified",
+      "truck_signal": "~2\u20136 inferred"
+    },
+    "services_mapped": [
+      "diagnostic",
+      "capacitor",
+      "blower",
+      "tuneup",
+      "ac_under_1500",
+      "ac_1500_2000",
+      "ac_over_2000",
+      "furnace_under_1500",
+      "furnace_1500_2000",
+      "furnace_over_2000"
+    ],
+    "needs_visit": [
+      "Contactor",
+      "Furnace igniter",
+      "Refrigerant leak + recharge",
+      "After-hours / emergency diagnostic surcharge"
+    ],
+    "table_ref": "v1-signed-2026-09-20.md",
+    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+    "site_services_raw": [
+      "AC repair",
+      "Furnace",
+      "Maintenance",
+      "Replacement"
+    ]
+  },
+  {
+    "slug": "dan-slanec-heating-cooling",
+    "shop_name": "Dan Slanec Heating and Cooling",
+    "website": "https://www.danslanecheatingandcooling.com/",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Dan+Slanec+Heating+and+Cooling+Clinton+Township+MI",
+    "phone": "(586) 286-7882",
+    "city": "Clinton Township, MI",
+    "county": "Macomb",
+    "logo_url": "https://www.danslanecheatingandcooling.com/images/favicon.ico",
+    "primary_color": "#0f2b8e",
+    "accent_color": "#e11d48",
+    "preview_url": "https://rbaset5.github.io/trade-quote-previews/dan-slanec-heating-cooling/",
+    "qr_path": "/workspace/hvac-metro-detroit/packs/dan-slanec-heating-cooling/qr.png",
+    "filter_checks": {
+      "geo": "Y",
+      "independent": "Y",
+      "cloneable_site": "Y",
+      "reviews_90d": "unverified",
+      "truck_signal": "unclear"
+    },
+    "services_mapped": [
+      "diagnostic",
+      "capacitor",
+      "blower",
+      "tuneup",
+      "ac_under_1500",
+      "ac_1500_2000",
+      "ac_over_2000",
+      "furnace_under_1500",
+      "furnace_1500_2000",
+      "furnace_over_2000"
+    ],
+    "needs_visit": [
+      "Contactor",
+      "Furnace igniter",
+      "Refrigerant leak + recharge",
+      "After-hours / emergency diagnostic surcharge"
+    ],
+    "table_ref": "v1-signed-2026-09-20.md",
+    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+    "site_services_raw": [
+      "Furnace/AC install & repair",
+      "Tune-ups",
+      "IAQ"
+    ]
+  },
+  {
+    "slug": "petes-heating-cooling",
+    "shop_name": "Pete's Heating & Cooling",
+    "website": "https://www.petesheatingcooling.com/",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Pete%27s+Heating+%26+Cooling+12070+Farmington+Rd+Livonia+MI",
+    "phone": "(734) 525-3488",
+    "city": "Livonia, MI",
+    "county": "Wayne",
+    "logo_url": "https://www.petesheatingcooling.com/wp-content/uploads/2018/05/PetesLogo1.png",
+    "primary_color": "#2ea3f2",
+    "accent_color": "#08af6d",
+    "preview_url": "https://rbaset5.github.io/trade-quote-previews/petes-heating-cooling/",
+    "qr_path": "/workspace/hvac-metro-detroit/packs/petes-heating-cooling/qr.png",
+    "filter_checks": {
+      "geo": "Y",
+      "independent": "Y",
+      "cloneable_site": "Y",
+      "reviews_90d": "unverified",
+      "truck_signal": "possibly 4\u20138+ (verify)"
+    },
+    "services_mapped": [
+      "diagnostic",
+      "capacitor",
+      "blower",
+      "tuneup",
+      "ac_under_1500",
+      "ac_1500_2000",
+      "ac_over_2000",
+      "furnace_under_1500",
+      "furnace_1500_2000",
+      "furnace_over_2000"
+    ],
+    "needs_visit": [
+      "Contactor",
+      "Furnace igniter",
+      "Refrigerant leak + recharge",
+      "After-hours / emergency diagnostic surcharge"
+    ],
+    "table_ref": "v1-signed-2026-09-20.md",
+    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+    "site_services_raw": [
+      "Furnace",
+      "AC",
+      "Maintenance",
+      "Heat pumps"
+    ]
+  },
+  {
+    "slug": "selective-hvac",
+    "shop_name": "Selective HVAC",
+    "website": "https://selectivehvac.com/",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Selective+HVAC+29301+Garrison+Rd+Wixom+MI",
+    "phone": "(248) 486-4640",
+    "city": "Wixom, MI",
+    "county": "Oakland",
+    "logo_url": "https://selectivehvac.com/wp-content/uploads/2016/07/SHVAC-Logo-Black-250W-165x45.png",
+    "primary_color": "#1e73be",
+    "accent_color": "#ed4824",
+    "preview_url": "https://rbaset5.github.io/trade-quote-previews/selective-hvac/",
+    "qr_path": "/workspace/hvac-metro-detroit/packs/selective-hvac/qr.png",
+    "filter_checks": {
+      "geo": "Y",
+      "independent": "Y",
+      "cloneable_site": "Y",
+      "reviews_90d": "unverified",
+      "truck_signal": "unclear"
+    },
+    "services_mapped": [
+      "diagnostic",
+      "capacitor",
+      "blower",
+      "tuneup",
+      "ac_under_1500",
+      "ac_1500_2000",
+      "ac_over_2000",
+      "furnace_under_1500",
+      "furnace_1500_2000",
+      "furnace_over_2000"
+    ],
+    "needs_visit": [
+      "Contactor",
+      "Furnace igniter",
+      "Refrigerant leak + recharge",
+      "After-hours / emergency diagnostic surcharge"
+    ],
+    "table_ref": "v1-signed-2026-09-20.md",
+    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+    "site_services_raw": [
+      "HVAC service & repair",
+      "Boilers",
+      "Forced air",
+      "AC"
+    ]
+  },
+  {
+    "slug": "airman-heat-air",
+    "shop_name": "Airman Heat & Air",
+    "website": "https://www.airman248.com/",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Airman+Heat+%26+Air+5129+E+8+Mile+Rd+Warren+MI",
+    "phone": "(248) 535-0487",
+    "city": "Warren, MI",
+    "county": "Macomb",
+    "logo_url": "https://static.wixstatic.com/media/978422_541603fc48304d2ea632dc8ba5010e19~mv2.png",
+    "primary_color": "#005AB4",
+    "accent_color": "#F5CD00",
+    "preview_url": "https://rbaset5.github.io/trade-quote-previews/airman-heat-air/",
+    "qr_path": "/workspace/hvac-metro-detroit/packs/airman-heat-air/qr.png",
+    "filter_checks": {
+      "geo": "Y",
+      "independent": "Y",
+      "cloneable_site": "Y",
+      "reviews_90d": "unverified",
+      "truck_signal": "unclear"
+    },
+    "services_mapped": [
+      "diagnostic",
+      "capacitor",
+      "blower",
+      "tuneup",
+      "ac_under_1500",
+      "ac_1500_2000",
+      "ac_over_2000",
+      "furnace_under_1500",
+      "furnace_1500_2000",
+      "furnace_over_2000"
+    ],
+    "needs_visit": [
+      "Contactor",
+      "Furnace igniter",
+      "Refrigerant leak + recharge",
+      "After-hours / emergency diagnostic surcharge"
+    ],
+    "table_ref": "v1-signed-2026-09-20.md",
+    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+    "site_services_raw": [
+      "Install",
+      "Repair",
+      "Residential & commercial HVAC"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "slug": "selective-hvac",
+  "shop_name": "Selective HVAC",
+  "website": "https://selectivehvac.com/",
+  "google_maps": "https://www.google.com/maps/search/?api=1&query=Selective+HVAC+29301+Garrison+Rd+Wixom+MI",
+  "phone": "(248) 486-4640",
+  "city": "Wixom, MI",
+  "county": "Oakland",
+  "logo_url": "https://selectivehvac.com/wp-content/uploads/2016/07/SHVAC-Logo-Black-250W-165x45.png",
+  "primary_color": "#1e73be",
+  "accent_color": "#ed4824",
+  "preview_url": "https://rbaset5.github.io/trade-quote-previews/selective-hvac/",
+  "qr_path": "/workspace/hvac-metro-detroit/packs/selective-hvac/qr.png",
+  "filter_checks": {
+    "geo": "Y",
+    "independent": "Y",
+    "cloneable_site": "Y",
+    "reviews_90d": "unverified",
+    "truck_signal": "unclear"
+  },
+  "services_mapped": [
+    "diagnostic",
+    "capacitor",
+    "blower",
+    "tuneup",
+    "ac_under_1500",
+    "ac_1500_2000",
+    "ac_over_2000",
+    "furnace_under_1500",
+    "furnace_1500_2000",
+    "furnace_over_2000"
+  ],
+  "needs_visit": [
+    "Contactor",
+    "Furnace igniter",
+    "Refrigerant leak + recharge",
+    "After-hours / emergency diagnostic surcharge"
+  ],
+  "table_ref": "v1-signed-2026-09-20.md",
+  "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+  "site_services_raw": [
+    "HVAC service & repair",
+    "Boilers",
+    "Forced air",
+    "AC"
+  ]
+}

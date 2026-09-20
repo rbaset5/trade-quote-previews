@@ -1,0 +1,47 @@
+{
+  "slug": "fair-heating-cooling",
+  "shop_name": "Fair Heating & Cooling",
+  "website": "https://fairheatingcooling.com/",
+  "google_maps": "https://www.google.com/maps/search/?api=1&query=Fair+Heating+%26+Cooling+2570+Dixie+Hwy+Waterford+MI",
+  "phone": "(248) 791-7075",
+  "city": "Waterford Township, MI",
+  "county": "Oakland",
+  "logo_url": "https://fairheatingcooling.com/wp-content/uploads/2025/09/fair-heating-cooling-logo.jpg",
+  "primary_color": "#0693e3",
+  "accent_color": "#428bca",
+  "preview_url": "https://rbaset5.github.io/trade-quote-previews/fair-heating-cooling/",
+  "qr_path": "/workspace/hvac-metro-detroit/packs/fair-heating-cooling/qr.png",
+  "filter_checks": {
+    "geo": "Y",
+    "independent": "Y",
+    "cloneable_site": "Y",
+    "reviews_90d": "unverified",
+    "truck_signal": "~2\u20134 inferred"
+  },
+  "services_mapped": [
+    "diagnostic",
+    "capacitor",
+    "blower",
+    "tuneup",
+    "ac_under_1500",
+    "ac_1500_2000",
+    "ac_over_2000",
+    "furnace_under_1500",
+    "furnace_1500_2000",
+    "furnace_over_2000"
+  ],
+  "needs_visit": [
+    "Contactor",
+    "Furnace igniter",
+    "Refrigerant leak + recharge",
+    "After-hours / emergency diagnostic surcharge"
+  ],
+  "table_ref": "v1-signed-2026-09-20.md",
+  "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
+  "site_services_raw": [
+    "AC installation",
+    "Furnace installation",
+    "HVAC repair",
+    "HVAC maintenance"
+  ]
+}
