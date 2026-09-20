@@ -146,31 +146,53 @@
     Call <a href="tel:2488175487">(248) 817-5487</a> · Troy, MI · Preview clone for visual review only
   </footer>
 <script>
-const KEPT = [{&#34;id&#34;: &#34;diagnostic&#34;, &#34;label&#34;: &#34;Diagnostic / service call&#34;, &#34;size&#34;: null, &#34;low&#34;: 79, &#34;high&#34;: 150}, {&#34;id&#34;: &#34;capacitor&#34;, &#34;label&#34;: &#34;Capacitor replacement&#34;, &#34;size&#34;: null, &#34;low&#34;: 150, &#34;high&#34;: 400}, {&#34;id&#34;: &#34;blower&#34;, &#34;label&#34;: &#34;Blower motor&#34;, &#34;size&#34;: null, &#34;low&#34;: 400, &#34;high&#34;: 900}, {&#34;id&#34;: &#34;tuneup&#34;, &#34;label&#34;: &#34;Tune-up&#34;, &#34;size&#34;: null, &#34;low&#34;: 89, &#34;high&#34;: 250}, {&#34;id&#34;: &#34;ac_under_1500&#34;, &#34;label&#34;: &#34;AC replacement&#34;, &#34;size&#34;: &#34;Under 1,500 sq ft&#34;, &#34;low&#34;: 5200, &#34;high&#34;: 6800}, {&#34;id&#34;: &#34;ac_1500_2000&#34;, &#34;label&#34;: &#34;AC replacement&#34;, &#34;size&#34;: &#34;1,500\u20132,000 sq ft&#34;, &#34;low&#34;: 5600, &#34;high&#34;: 8000}, {&#34;id&#34;: &#34;ac_over_2000&#34;, &#34;label&#34;: &#34;AC replacement&#34;, &#34;size&#34;: &#34;Over 2,000 sq ft&#34;, &#34;low&#34;: 6800, &#34;high&#34;: 10500}, {&#34;id&#34;: &#34;furnace_under_1500&#34;, &#34;label&#34;: &#34;Furnace replacement&#34;, &#34;size&#34;: &#34;Under 1,500 sq ft&#34;, &#34;low&#34;: 3500, &#34;high&#34;: 6800}, {&#34;id&#34;: &#34;furnace_1500_2000&#34;, &#34;label&#34;: &#34;Furnace replacement&#34;, &#34;size&#34;: &#34;1,500\u20132,000 sq ft&#34;, &#34;low&#34;: 3850, &#34;high&#34;: 7900}, {&#34;id&#34;: &#34;furnace_over_2000&#34;, &#34;label&#34;: &#34;Furnace replacement&#34;, &#34;size&#34;: &#34;Over 2,000 sq ft&#34;, &#34;low&#34;: 5050, &#34;high&#34;: 10100}];
+const KEPT = [{"id": "diagnostic", "label": "Diagnostic / service call", "size": null, "low": 79, "high": 150}, {"id": "capacitor", "label": "Capacitor replacement", "size": null, "low": 150, "high": 400}, {"id": "blower", "label": "Blower motor", "size": null, "low": 400, "high": 900}, {"id": "tuneup", "label": "Tune-up", "size": null, "low": 89, "high": 250}, {"id": "ac_under_1500", "label": "AC replacement", "size": "Under 1,500 sq ft", "low": 5200, "high": 6800}, {"id": "ac_1500_2000", "label": "AC replacement", "size": "1,500\u20132,000 sq ft", "low": 5600, "high": 8000}, {"id": "ac_over_2000", "label": "AC replacement", "size": "Over 2,000 sq ft", "low": 6800, "high": 10500}, {"id": "furnace_under_1500", "label": "Furnace replacement", "size": "Under 1,500 sq ft", "low": 3500, "high": 6800}, {"id": "furnace_1500_2000", "label": "Furnace replacement", "size": "1,500\u20132,000 sq ft", "low": 3850, "high": 7900}, {"id": "furnace_over_2000", "label": "Furnace replacement", "size": "Over 2,000 sq ft", "low": 5050, "high": 10100}];
 const NEED_VISIT_KEYS = ["contactor","igniter","leak","recharge","refrigerant","after hours","after-hours","emergency","tonight"];
 function money(n){ return n.toLocaleString("en-US"); }
+function isAc(t){
+  // Whole-token / alias only — never bare "ac" substring (matches inside "furnace")
+  return /(?:^|[^a-z0-9])(?:ac|a\/c)(?:[^a-z0-9]|$)/.test(t)
+    || /\bair\s*condition(?:er|ing)?\b/.test(t)
+    || /\bcentral\s*air\b/.test(t);
+}
+function isFurnace(t){
+  return /\bfurnace\b/.test(t) || /\bheater\b/.test(t);
+}
+function wantsReplace(t){
+  return /\breplac|\binstall|\bnew\b/.test(t);
+}
+function sqFt(t){
+  const m = t.match(/(\d{3,4})\s*(?:sq(?:\.|uare)?\.?\s*ft|square\s*feet|sqft)/)
+         || t.match(/(\d{3,4})\s*(?:sq|square)\b/);
+  return m ? parseInt(m[1],10) : null;
+}
+function bandId(prefix, n){
+  if(n < 1500) return prefix + "_under_1500";
+  if(n <= 2000) return prefix + "_1500_2000";
+  return prefix + "_over_2000";
+}
 function classify(text){
   const t = (text||"").toLowerCase().trim();
   if(!t || t.length < 4 || /^[asdf ]+$/i.test(t) || t.includes("how much for a friend")) return {kind:"drop"};
   if(NEED_VISIT_KEYS.some(k => t.includes(k))) return {kind:"visit", reason:"This one needs a tech on site before we quote."};
   let row = null;
-  if(/tune[- ]?up|maintenance|check[- ]?up/.test(t)) row = KEPT.find(s => s.id==="tuneup");
-  else if(/capacitor/.test(t)) row = KEPT.find(s => s.id==="capacitor");
-  else if(/blower/.test(t)) row = KEPT.find(s => s.id==="blower");
-  else if(/diagnos|service call|won'?t (turn|start)|not (working|cooling|heating)|no (cool|heat|air)/.test(t) && !/replac|install|new (ac|furnace|unit)/.test(t))
+  if(/\btune[- ]?up\b|\bmaintenance\b|\bcheck[- ]?up\b/.test(t)) row = KEPT.find(s => s.id==="tuneup");
+  else if(/\bcapacitor\b/.test(t)) row = KEPT.find(s => s.id==="capacitor");
+  else if(/\bblower\b/.test(t)) row = KEPT.find(s => s.id==="blower");
+  else if((/\bdiagnos|\bservice call\b|won'?t (?:turn|start)|not (?:working|cooling|heating)|no (?:cool|heat|air)\b/.test(t))
+          && !wantsReplace(t))
     row = KEPT.find(s => s.id==="diagnostic");
-  else if(/ac|air condition|central air/.test(t) && /replac|install|new/.test(t)){
-    const sq = t.match(/(\d{3,4})\s*(sq|square)/);
-    const n = sq ? parseInt(sq[1],10) : null;
+  // Furnace replace BEFORE AC — "furnace" must never hit the AC row
+  else if(isFurnace(t) && wantsReplace(t)){
+    const n = sqFt(t);
     if(n==null) return {kind:"size"};
-    row = KEPT.find(s => s.id === (n<1500?"ac_under_1500": n<=2000?"ac_1500_2000":"ac_over_2000"));
-  } else if(/furnace|heat(er)?/.test(t) && /replac|install|new/.test(t)){
-    const sq = t.match(/(\d{3,4})\s*(sq|square)/);
-    const n = sq ? parseInt(sq[1],10) : null;
+    row = KEPT.find(s => s.id === bandId("furnace", n));
+  } else if(isAc(t) && wantsReplace(t)){
+    const n = sqFt(t);
     if(n==null) return {kind:"size"};
-    row = KEPT.find(s => s.id === (n<1500?"furnace_under_1500": n<=2000?"furnace_1500_2000":"furnace_over_2000"));
-  } else if(/ac|air condition|cool/.test(t)) row = KEPT.find(s => s.id==="diagnostic");
-  else if(/furnace|heat/.test(t)) row = KEPT.find(s => s.id==="diagnostic");
+    row = KEPT.find(s => s.id === bandId("ac", n));
+  } else if(isAc(t) || /\bcool(?:ing|s)?\b/.test(t)) row = KEPT.find(s => s.id==="diagnostic");
+  else if(isFurnace(t) || /\bheat(?:ing)?\b/.test(t)) row = KEPT.find(s => s.id==="diagnostic");
   if(!row) return {kind:"visit", reason:"We’d confirm this in person — it’s outside the signed price table."};
   return {kind:"range", row};
 }
