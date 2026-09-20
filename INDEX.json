@@ -16,7 +16,9 @@
       "geo": "Y",
       "independent": "Y",
       "cloneable_site": "Y",
-      "reviews_90d": "unverified",
+      "reviews_90d": "Y (8)",
+      "rating": "5.0",
+      "total_reviews": 89,
       "truck_signal": "~2\u20134 inferred"
     },
     "services_mapped": [
@@ -47,53 +49,6 @@
     ]
   },
   {
-    "slug": "onnit-heating-cooling",
-    "shop_name": "Onnit Heating and Cooling",
-    "website": "https://onnitheatingandcooling.com/",
-    "google_maps": "https://www.google.com/maps/search/?api=1&query=Onnit+Heating+and+Cooling+Westland+MI",
-    "phone": "(734) 899-5495",
-    "city": "Westland, MI",
-    "county": "Wayne",
-    "logo_url": "https://onnitheatingandcooling.com/wp-content/uploads/2024/07/onnit-heating-and-cooling-logo.jpg",
-    "primary_color": "#147aab",
-    "accent_color": "#f89904",
-    "preview_url": "https://rbaset5.github.io/trade-quote-previews/onnit-heating-cooling/",
-    "qr_path": "/workspace/hvac-metro-detroit/packs/onnit-heating-cooling/qr.png",
-    "filter_checks": {
-      "geo": "Y",
-      "independent": "Y",
-      "cloneable_site": "Y",
-      "reviews_90d": "unverified",
-      "truck_signal": "unclear (small)"
-    },
-    "services_mapped": [
-      "diagnostic",
-      "capacitor",
-      "blower",
-      "tuneup",
-      "ac_under_1500",
-      "ac_1500_2000",
-      "ac_over_2000",
-      "furnace_under_1500",
-      "furnace_1500_2000",
-      "furnace_over_2000"
-    ],
-    "needs_visit": [
-      "Contactor",
-      "Furnace igniter",
-      "Refrigerant leak + recharge",
-      "After-hours / emergency diagnostic surcharge"
-    ],
-    "table_ref": "v1-signed-2026-09-20.md",
-    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
-    "site_services_raw": [
-      "AC repair",
-      "Furnace repair",
-      "Tune-ups",
-      "System replacement"
-    ]
-  },
-  {
     "slug": "noble-heating-cooling",
     "shop_name": "Noble Heating & Cooling",
     "website": "https://www.nobleheatingandcooling.com/",
@@ -110,7 +65,9 @@
       "geo": "Y",
       "independent": "Y",
       "cloneable_site": "Y",
-      "reviews_90d": "unverified",
+      "reviews_90d": "Y (3)",
+      "rating": "5.0",
+      "total_reviews": 178,
       "truck_signal": "~2\u20133 inferred"
     },
     "services_mapped": [
@@ -156,7 +113,9 @@
       "geo": "Y",
       "independent": "Y",
       "cloneable_site": "Y",
-      "reviews_90d": "unverified",
+      "reviews_90d": "Y (5)",
+      "rating": "5.0",
+      "total_reviews": 248,
       "truck_signal": "~2\u20136 inferred"
     },
     "services_mapped": [
@@ -203,7 +162,9 @@
       "geo": "Y",
       "independent": "Y",
       "cloneable_site": "Y",
-      "reviews_90d": "unverified",
+      "reviews_90d": "Y (4)",
+      "rating": "4.9",
+      "total_reviews": 140,
       "truck_signal": "unclear"
     },
     "services_mapped": [
@@ -233,100 +194,6 @@
     ]
   },
   {
-    "slug": "petes-heating-cooling",
-    "shop_name": "Pete's Heating & Cooling",
-    "website": "https://www.petesheatingcooling.com/",
-    "google_maps": "https://www.google.com/maps/search/?api=1&query=Pete%27s+Heating+%26+Cooling+12070+Farmington+Rd+Livonia+MI",
-    "phone": "(734) 525-3488",
-    "city": "Livonia, MI",
-    "county": "Wayne",
-    "logo_url": "https://www.petesheatingcooling.com/wp-content/uploads/2018/05/PetesLogo1.png",
-    "primary_color": "#2ea3f2",
-    "accent_color": "#08af6d",
-    "preview_url": "https://rbaset5.github.io/trade-quote-previews/petes-heating-cooling/",
-    "qr_path": "/workspace/hvac-metro-detroit/packs/petes-heating-cooling/qr.png",
-    "filter_checks": {
-      "geo": "Y",
-      "independent": "Y",
-      "cloneable_site": "Y",
-      "reviews_90d": "unverified",
-      "truck_signal": "possibly 4\u20138+ (verify)"
-    },
-    "services_mapped": [
-      "diagnostic",
-      "capacitor",
-      "blower",
-      "tuneup",
-      "ac_under_1500",
-      "ac_1500_2000",
-      "ac_over_2000",
-      "furnace_under_1500",
-      "furnace_1500_2000",
-      "furnace_over_2000"
-    ],
-    "needs_visit": [
-      "Contactor",
-      "Furnace igniter",
-      "Refrigerant leak + recharge",
-      "After-hours / emergency diagnostic surcharge"
-    ],
-    "table_ref": "v1-signed-2026-09-20.md",
-    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
-    "site_services_raw": [
-      "Furnace",
-      "AC",
-      "Maintenance",
-      "Heat pumps"
-    ]
-  },
-  {
-    "slug": "selective-hvac",
-    "shop_name": "Selective HVAC",
-    "website": "https://selectivehvac.com/",
-    "google_maps": "https://www.google.com/maps/search/?api=1&query=Selective+HVAC+29301+Garrison+Rd+Wixom+MI",
-    "phone": "(248) 486-4640",
-    "city": "Wixom, MI",
-    "county": "Oakland",
-    "logo_url": "https://selectivehvac.com/wp-content/uploads/2016/07/SHVAC-Logo-Black-250W-165x45.png",
-    "primary_color": "#1e73be",
-    "accent_color": "#ed4824",
-    "preview_url": "https://rbaset5.github.io/trade-quote-previews/selective-hvac/",
-    "qr_path": "/workspace/hvac-metro-detroit/packs/selective-hvac/qr.png",
-    "filter_checks": {
-      "geo": "Y",
-      "independent": "Y",
-      "cloneable_site": "Y",
-      "reviews_90d": "unverified",
-      "truck_signal": "unclear"
-    },
-    "services_mapped": [
-      "diagnostic",
-      "capacitor",
-      "blower",
-      "tuneup",
-      "ac_under_1500",
-      "ac_1500_2000",
-      "ac_over_2000",
-      "furnace_under_1500",
-      "furnace_1500_2000",
-      "furnace_over_2000"
-    ],
-    "needs_visit": [
-      "Contactor",
-      "Furnace igniter",
-      "Refrigerant leak + recharge",
-      "After-hours / emergency diagnostic surcharge"
-    ],
-    "table_ref": "v1-signed-2026-09-20.md",
-    "approval": "SIGNED for preview clones only. Not for live DNS. Not a 50-card print run.",
-    "site_services_raw": [
-      "HVAC service & repair",
-      "Boilers",
-      "Forced air",
-      "AC"
-    ]
-  },
-  {
     "slug": "airman-heat-air",
     "shop_name": "Airman Heat & Air",
     "website": "https://www.airman248.com/",
@@ -343,7 +210,9 @@
       "geo": "Y",
       "independent": "Y",
       "cloneable_site": "Y",
-      "reviews_90d": "unverified",
+      "reviews_90d": "Y (4)",
+      "rating": "5.0",
+      "total_reviews": 295,
       "truck_signal": "unclear"
     },
     "services_mapped": [

@@ -15,7 +15,9 @@
     "geo": "Y",
     "independent": "Y",
     "cloneable_site": "Y",
-    "reviews_90d": "unverified",
+    "reviews_90d": "Y (3)",
+    "rating": "5.0",
+    "total_reviews": 178,
     "truck_signal": "~2\u20133 inferred"
   },
   "services_mapped": [
